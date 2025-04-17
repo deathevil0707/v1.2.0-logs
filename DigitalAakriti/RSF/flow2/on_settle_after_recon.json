@@ -12,20 +12,20 @@
                 "code": "std:080"
             }
         },
-        "transaction_id": "b1800fbe-0538-4777-8b5e-d2986ac15a26",
-        "message_id": "00f0b4b9-dd0f-4407-a3b7-fdaa05aea4de",
-        "timestamp": "2024-12-06T07:37:54.326Z",
+        "transaction_id": "18d5b581-25c3-4e8a-a06b-581abdac4901",
+        "message_id": "ca32268f-3045-4eea-8b91-9c8eb72fac3e",
+        "timestamp": "2025-01-07T08:55:11.283Z",
         "domain": "ONDC:NTS10",
         "version": "2.0.0",
         "ttl": "PT10M",
         "action": "on_settle"
     },
     "message": {
-        "collector_app_id": "rsf-mock-service.ondc.org",
+        "collector_app_id": "rsf-mock-service.ondc.org/seller_protocol_server",
         "receiver_app_id": "digitalaakriti.com",
         "settlement": {
             "type": "NP-NP",
-            "id": "7415591e-37ce-482b-81f6-af8fabdac02e",
+            "id": "0fc598d6-cf10-47d3-8d28-425e857a506f",
             "orders": [
                 {
                     "id": "2024-11-29-800175",
@@ -38,7 +38,6 @@
                             "value": "1895.6",
                             "currency": "INR"
                         },
-                        "status": "SETTLED",
                         "reference_no": "1238683618634"
                     },
                     "collector": {
@@ -52,7 +51,6 @@
                             "value": "50",
                             "currency": "INR"
                         },
-                        "status": "SETTLED",
                         "reference_no": "1238683618634"
                     },
                     "provider": {

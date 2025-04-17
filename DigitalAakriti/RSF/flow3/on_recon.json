@@ -1,6 +1,6 @@
 {
     "context": {
-        "bap_id": "8a3bfefa-df6a-40fc-bb90-79e0c877304a",
+        "bap_id": "digitalaakriti.com",
         "bap_uri": "https://digitalaakriti.com/ondc/",
         "bpp_id": "rsf-mock-service.ondc.org/seller_protocol_server",
         "bpp_uri": "https://rsf-mock-service.ondc.org/seller_protocol_server",
@@ -12,9 +12,9 @@
                 "code": "std:080"
             }
         },
-        "transaction_id": "e7e231eb-4e28-4d5d-884b-8cd49e5cddab",
-        "message_id": "96f670bb-ab7c-441b-a26e-e833efb86a52",
-        "timestamp": "2024-12-06T07:53:09.992Z",
+        "transaction_id": "a4d7b92d-7fb1-4815-9c03-9500a38f38a2",
+        "message_id": "0bd91de3-e289-458c-b7ae-28a01d90287a",
+        "timestamp": "2025-01-07T09:41:12.048Z",
         "domain": "ONDC:NTS10",
         "version": "2.0.0",
         "ttl": "PT10M",
@@ -25,39 +25,39 @@
             {
                 "id": "2024-11-29-800175",
                 "amount": {
-                    "value": "1898.6",
+                    "value": "1898.60",
                     "currency": "INR"
                 },
                 "recon_accord": "false",
                 "settlements": [
                     {
-                        "id": "86ef1800-eba4-456e-992e-401d44de3d0d",
+                        "id": "26638510-8fe1-4e47-ac69-6f39663149fc",
                         "payment_id": "2475e1e9-2ee3-46a2-acc5-63f0f79e452e",
                         "status": "PENDING",
                         "amount": {
                             "value": "1895.6",
                             "currency": "INR",
-                            "diff_value": "9"
+                            "diff_value": "10"
                         },
                         "commission": {
                             "value": "3",
                             "currency": "INR",
-                            "diff_value": "6"
+                            "diff_value": "9"
                         },
                         "withholding_amount": {
                             "value": "0",
                             "currency": "INR",
-                            "diff_value": "0"
+                            "diff_value": "5"
                         },
                         "tcs": {
                             "value": "0",
                             "currency": "INR",
-                            "diff_value": "3"
+                            "diff_value": "0"
                         },
                         "tds": {
                             "value": "0",
                             "currency": "INR",
-                            "diff_value": "2"
+                            "diff_value": "0"
                         }
                     }
                 ]

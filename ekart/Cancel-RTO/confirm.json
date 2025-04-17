@@ -3,11 +3,11 @@
     "action": "confirm",
     "bap_id": "pramaan.ondc.org/alpha/mock-server",
     "bap_uri": "https://pramaan.ondc.org/alpha/mock-server/lspbuyer",
-    "transaction_id": "c06e1f0d-ff2b-4565-aca7-ccd702be59a2",
-    "message_id": "7b61bb80-9121-4569-9335-782fccc8074d",
+    "transaction_id": "823b4339-8b13-42c8-b621-7cd4c557bc51",
+    "message_id": "25a86950-01eb-4ea8-a25f-a6f1956686e9",
     "city": "std:080",
     "country": "IND",
-    "timestamp": "2024-12-06T10:44:37.546Z",
+    "timestamp": "2024-12-24T02:34:52.621Z",
     "ttl": "PT30S",
     "bpp_id": "ondc-preprod.api.flipkart.com",
     "bpp_uri": "https://ondc-preprod.api.flipkart.com/",
@@ -16,7 +16,7 @@
   },
   "message": {
     "order": {
-      "id": "dUvNAgwiBRXLmAcrMxXncmBeIhfZR73D",
+      "id": "EhapU5FCYFkkdS11lHYFBoJb9engk7N1",
       "state": "Created",
       "provider": {
         "id": "Ekart"
@@ -36,7 +36,7 @@
           },
           "time": {
             "label": "TAT",
-            "timestamp": "2024-12-11",
+            "timestamp": "2024-12-29",
             "duration": "P5D"
           },
           "category_id": "Standard Delivery",
@@ -79,10 +79,10 @@
                 "name": "7/6, August Kranti Marg",
                 "building": "Siri Fort Institutional",
                 "locality": "Siri Fort Institutional Area, Siri Fort",
-                "city": "New Delhi",
-                "state": "Delhi",
+                "city": "Bengaluru",
+                "state": "Karnataka",
                 "country": "India",
-                "area_code": "110049"
+                "area_code": "560103"
               }
             },
             "contact": {
@@ -103,10 +103,10 @@
                 "name": "7/6, August Kranti Marg",
                 "building": "Siri Fort Institutional",
                 "locality": "Siri Fort Institutional Area, Siri Fort",
-                "city": "New Delhi",
-                "state": "Delhi",
+                "city": "Alappuzha",
+                "state": "Kerala",
                 "country": "India",
-                "area_code": "110049"
+                "area_code": "688001"
               }
             },
             "contact": {
@@ -123,7 +123,7 @@
               "list": [
                 {
                   "code": "ready_to_ship",
-                  "value": "yes"
+                  "value": "no"
                 }
               ]
             },
@@ -153,24 +153,11 @@
         "tax_number": "29AAACU1901H1ZK",
         "phone": "9886098860",
         "email": "sharique.efgh@gmail.com",
-        "created_at": "2024-12-06T10:44:34.748Z",
-        "updated_at": "2024-12-06T10:44:34.748Z"
+        "created_at": "2024-12-24T02:34:51.374Z",
+        "updated_at": "2024-12-24T02:34:51.374Z"
       },
       "payment": {
-        "at_ondcorgsettlement_details": [
-          {
-            "settlement_counterparty": "seller-app",
-            "settlement_type": "neft",
-            "settlement_bank_account_no": "XXXXXXXXXXXX",
-            "settlement_ifsc_code": "XXXXXXXXx",
-            "upi_address": null,
-            "settlement_status": null,
-            "settlement_reference": null,
-            "settlement_timestamp": null
-          }
-        ],
         "type": "POST-FULFILLMENT",
-        "status": "NOT-PAID",
         "collected_by": "BAP"
       },
       "@ondc/org/linked_order": {
@@ -269,8 +256,8 @@
           ]
         }
       ],
-      "created_at": "2024-12-06T10:44:37.545Z",
-      "updated_at": "2024-12-06T10:44:37.545Z"
+      "created_at": "2024-12-24T02:34:52.620Z",
+      "updated_at": "2024-12-24T02:34:52.620Z"
     }
   }
 }
